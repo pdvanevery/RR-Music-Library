@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-function SearchBar(props){
+function SearchBar(props: any){
     let [searchTerm, setSearchTerm] = useState('')
 
     return (
