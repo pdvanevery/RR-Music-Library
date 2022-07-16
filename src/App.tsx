@@ -24,7 +24,7 @@ function App() {
   }
   }, [searchTerm])
 
-  const handleSearch = (e: any, term:any) => {
+  const handleSearch = (e: any, term:string) => {
     e.preventDefault()
     setSearchTerm(term)
   }
